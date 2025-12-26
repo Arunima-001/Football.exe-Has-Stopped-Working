@@ -167,7 +167,7 @@ def set_camera():
         glLoadIdentity()
 
 
-        gluLookAt(0, 50, 0,
+        gluLookAt(0, 18, 0,
                   0, 0, 0,
                   0, 0, 1)
         glRotatef(180, 0, 1, 0)
@@ -2353,4 +2353,5 @@ def main():
     glutMainLoop()
 
 if __name__ == "__main__":
+
     main()
